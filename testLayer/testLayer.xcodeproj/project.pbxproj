@@ -16,6 +16,10 @@
 		FE93746E1CE171C100951743 /* testLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE93746D1CE171C100951743 /* testLayerTests.m */; };
 		FE9374791CE171C100951743 /* testLayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9374781CE171C100951743 /* testLayerUITests.m */; };
 		FE9374881CE1C57900951743 /* NextController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9374871CE1C57900951743 /* NextController.m */; };
+		FEFB9E151CE2BE2600E97812 /* StarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFB9E141CE2BE2600E97812 /* StarController.m */; };
+		FEFB9E181CE2CC0500E97812 /* TransfromController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFB9E171CE2CC0500E97812 /* TransfromController.m */; };
+		FEFB9E1B1CE2D26600E97812 /* EmitterController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFB9E1A1CE2D26600E97812 /* EmitterController.m */; };
+		FEFB9E1E1CE2D7F900E97812 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFB9E1D1CE2D7F900E97812 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,14 @@
 		FE93747A1CE171C100951743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE9374861CE1C57900951743 /* NextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextController.h; sourceTree = "<group>"; };
 		FE9374871CE1C57900951743 /* NextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextController.m; sourceTree = "<group>"; };
+		FEFB9E131CE2BE2600E97812 /* StarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarController.h; sourceTree = "<group>"; };
+		FEFB9E141CE2BE2600E97812 /* StarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarController.m; sourceTree = "<group>"; };
+		FEFB9E161CE2CC0500E97812 /* TransfromController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransfromController.h; sourceTree = "<group>"; };
+		FEFB9E171CE2CC0500E97812 /* TransfromController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransfromController.m; sourceTree = "<group>"; };
+		FEFB9E191CE2D26600E97812 /* EmitterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterController.h; sourceTree = "<group>"; };
+		FEFB9E1A1CE2D26600E97812 /* EmitterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterController.m; sourceTree = "<group>"; };
+		FEFB9E1C1CE2D7F900E97812 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		FEFB9E1D1CE2D7F900E97812 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,11 +118,19 @@
 			children = (
 				FE9374561CE171C100951743 /* AppDelegate.h */,
 				FE9374571CE171C100951743 /* AppDelegate.m */,
+				FEFB9E1C1CE2D7F900E97812 /* TableViewController.h */,
+				FEFB9E1D1CE2D7F900E97812 /* TableViewController.m */,
 				FE9374591CE171C100951743 /* ViewController.h */,
 				FE93745A1CE171C100951743 /* ViewController.m */,
 				FE93745C1CE171C100951743 /* Main.storyboard */,
 				FE9374861CE1C57900951743 /* NextController.h */,
 				FE9374871CE1C57900951743 /* NextController.m */,
+				FEFB9E131CE2BE2600E97812 /* StarController.h */,
+				FEFB9E141CE2BE2600E97812 /* StarController.m */,
+				FEFB9E161CE2CC0500E97812 /* TransfromController.h */,
+				FEFB9E171CE2CC0500E97812 /* TransfromController.m */,
+				FEFB9E191CE2D26600E97812 /* EmitterController.h */,
+				FEFB9E1A1CE2D26600E97812 /* EmitterController.m */,
 				FE93745F1CE171C100951743 /* Assets.xcassets */,
 				FE9374611CE171C100951743 /* LaunchScreen.storyboard */,
 				FE9374641CE171C100951743 /* Info.plist */,
@@ -275,10 +295,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEFB9E181CE2CC0500E97812 /* TransfromController.m in Sources */,
+				FEFB9E151CE2BE2600E97812 /* StarController.m in Sources */,
+				FEFB9E1B1CE2D26600E97812 /* EmitterController.m in Sources */,
 				FE93745B1CE171C100951743 /* ViewController.m in Sources */,
 				FE9374581CE171C100951743 /* AppDelegate.m in Sources */,
 				FE9374881CE1C57900951743 /* NextController.m in Sources */,
 				FE9374551CE171C100951743 /* main.m in Sources */,
+				FEFB9E1E1CE2D7F900E97812 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +526,7 @@
 				FE93747F1CE171C100951743 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE9374801CE171C100951743 /* Build configuration list for PBXNativeTarget "testLayerTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +535,7 @@
 				FE9374821CE171C100951743 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE9374831CE171C100951743 /* Build configuration list for PBXNativeTarget "testLayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +544,7 @@
 				FE9374851CE171C100951743 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,2 +1,3 @@
-dependencies: /Users/zhuyun/Desktop/testLayer/testLayer/AppDelegate.m \
-  /Users/zhuyun/Desktop/testLayer/testLayer/AppDelegate.h
+dependencies: \
+  /Users/zhuyun/Desktop/TestLayer/testLayer/testLayer/AppDelegate.m \
+  /Users/zhuyun/Desktop/TestLayer/testLayer/testLayer/AppDelegate.h
