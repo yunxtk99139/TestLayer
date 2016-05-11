@@ -38,25 +38,25 @@
     emitterCell.velocity = 50.0;
     emitterCell.velocityRange = 500.0;
     
-    emitterCell.color = [UIColor blackColor].CGColor;
+    emitterCell.color = [UIColor redColor].CGColor;
     emitterCell.redRange = 1.0;
     emitterCell.greenRange = 1.0;
     emitterCell.blueRange = 1.0;
-    emitterCell.alphaRange = 0.0;
-    emitterCell.redSpeed = 0.0;
-    emitterCell.greenSpeed = 0.0;
-    emitterCell.blueSpeed = 0.0;
+    emitterCell.alphaRange = 1;
+    emitterCell.redSpeed = 1.0;
+    emitterCell.greenSpeed = 1.0;
+    emitterCell.blueSpeed = 1.0;
     emitterCell.alphaSpeed = -0.5;
     
-    CGFloat zeroDegreesInRadians = [self degreesToRadians:0.0];
+    CGFloat zeroDegreesInRadians = [self degreesToRadians:90.0];
     emitterCell.spin =[self degreesToRadians:130.0];
     emitterCell.spinRange = zeroDegreesInRadians;
     emitterCell.emissionRange = [self degreesToRadians:360.0];
     
     emitterCell.lifetime = 1.0;
     emitterCell.birthRate = 250.0;
-    emitterCell.xAcceleration = -800.0;
-    emitterCell.yAcceleration = 1000.0;
+//    emitterCell.xAcceleration = 800.0;
+//    emitterCell.yAcceleration = 1000.0;
 }
 - (CGFloat)degreesToRadians:(double)degrees{
     return degrees * M_PI / 180.0;
